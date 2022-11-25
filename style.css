@@ -1,0 +1,91 @@
+
+header{
+    position: relative;
+    color: white;
+}
+header .head{
+    position: absolute;
+    top: 20px;
+}
+header img{
+    width: 100%;
+    height: 700px;
+}
+header .nav{
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    margin-left: 800px;
+    margin-bottom: 30px;
+}
+header ul li{
+    padding: 15px
+}
+.creative{
+    text-align: center;
+    font-size: 30px;
+    word-spacing: 10px;
+}
+.nav h1{
+    font-size: 25px;
+    margin-left: 20px;
+}
+header ul li:last-child{
+    color: black;
+    background-color: white;
+    border-radius: 40px;
+    width: 80px;
+    text-align: center;
+}
+header .arrow img{
+    width: 20px;
+    height: 80px;
+    position: absolute;
+    right: 590px;
+    top: 305px;
+}
+ .main_one{
+display: flex;
+
+}
+.main_one .egg img{
+    height: 500px;
+    width: 100%;
+}
+.main_one .egg{
+width: 50%;
+}
+.main_one .trans{
+width: 50%;
+text-align: center;
+margin-top: 100px;
+}
+.main_one .trans h1{
+    font-size: 50px;
+}
+.main_one .trans p{
+    font-size: 20px;
+    color: #b6b2be;
+}
+.main_one .trans h3{
+margin-top: 20px;
+text-decoration: underline;
+text-decoration-color: #fff1b4;
+}
+.main_two .cherry{
+    width: 50%;
+    position: relative;
+}
+.main_two .cherry img{
+    height: 500px;
+    width: 100%;
+}
+.main_two .cherry .para{
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    right: 180px;
+}
